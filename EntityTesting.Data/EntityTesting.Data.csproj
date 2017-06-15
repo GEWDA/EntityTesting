@@ -123,9 +123,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Migrations\20170615014437_init.cs" />
-    <Compile Include="Migrations\20170615014437_init.designer.cs">
-      <DependentUpon>20170615014437_init.cs</DependentUpon>
+    <Compile Include="Migrations\20170615022436_init.cs" />
+    <Compile Include="Migrations\20170615022436_init.designer.cs">
+      <DependentUpon>20170615022436_init.cs</DependentUpon>
     </Compile>
     <Compile Include="Migrations\SamuraiContextModelSnapshot.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -141,5 +141,6 @@
       <Name>EntityTesting.Domain</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

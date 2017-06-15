@@ -17,7 +17,7 @@ namespace EntityTesting.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             optionsBuilder.UseSqlServer(
-                "Server = LAPTOP-OUSE04QM\\SQLEXPRESS; Database = SamuraiData; Trusted_Connection = true;");
+                "Server = (localdb)\\ProjectsV13; Database = SamuraiData; Trusted_Connection = true;");
         }
     }
 }

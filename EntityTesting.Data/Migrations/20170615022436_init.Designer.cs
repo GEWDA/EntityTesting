@@ -8,7 +8,7 @@ using EntityTesting.Data;
 namespace EntityTesting.Data.Migrations
 {
     [DbContext(typeof(SamuraiContext))]
-    [Migration("20170615014437_init")]
+    [Migration("20170615022436_init")]
     partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
